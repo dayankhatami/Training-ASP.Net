@@ -13,5 +13,10 @@ namespace Training38.Controllers
         {
             return View();
         }
+
+        public ActionResult EditParticipant()
+        {
+            return View();
+        }
     }
 }
