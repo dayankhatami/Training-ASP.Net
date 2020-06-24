@@ -191,5 +191,10 @@ namespace Training38.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public ActionResult EditVehicle()
+        {
+            return View();
+        }
     }
 }
