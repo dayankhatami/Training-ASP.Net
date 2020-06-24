@@ -42,5 +42,9 @@ namespace Training38.Controllers
             }
             return Content("Please input your name");
         }
+        public ActionResult EditVehicle()
+        {
+            return View();
+        }
     }
 }
